@@ -1,0 +1,17 @@
+{
+    "require": {
+        "linecorp/line-bot-sdk": "^1.4",
+        "fukuball/jieba-php": "dev-master",
+        "aws/aws-sdk-php": "^3.21",
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+	"files":[
+        	"classes/Config.php",
+        	"classes/Controller.php",
+        	"classes/Sqs.php",
+        	"classes/Download.php",
+        	"classes/Talk.php"
+        ]
+    }
+}

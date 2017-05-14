@@ -1,0 +1,28 @@
+{
+        "system":{
+                "Replytime":100000
+        },
+        "line_bot_conf":{
+                "Channel_ID":"14***",
+                "Channel_Secret":"204*********",
+                "Channel_Token":"apgKYtjfWS*-*********U="
+        },
+	"aws_sqs":{
+		"QueueUrl":"https://sqs.us-west-2.amazonaws.com/******/echoBot.fifo"
+	},
+        "redis":{
+                "Server":"127.0.0.1",
+                "Port":6379,
+                "Timeout":2.5
+        },
+        "elasticsearch":{
+                "Server":"192.168.1.100000000000000000000000000000000",
+                "Port":9200,
+                "Index":"fee",
+                "Type":"fulltext"
+        },
+	"googleapi":{
+		"Key":"key"
+	}
+}
+
