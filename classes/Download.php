@@ -46,7 +46,7 @@ class Download{
 			$temp_fileId = $this->_pullFromRedis();
 			if ($temp_fileId != '') {
 				echo $temp_fileId."\n";
-				sleep(1);
+				sleep(5);
 				$this->_downloadVideo($temp_fileId);
 			}else{
 				echo "no such video";
